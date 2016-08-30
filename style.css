@@ -1,0 +1,156 @@
+/* Global styles */
+a {
+  text-decoration: none;
+  color: violet;
+}
+
+/* Index styles */
+header {
+  width: 100%;
+  background: #b3cccc;
+  font-family: 'Indie Flower', cursive; /*Attr: fonts.google.com*/
+  text-align: center;
+  height: 200px;
+}
+
+header section {
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  background: #00b2b0;
+  position: relative;
+}
+
+header img {
+  width: 250px;
+}
+
+img.salmon {
+  float: left;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+img.chinook {
+  float: right;
+  margin-top: 105px;
+  margin-right: 100px;
+}
+
+header h1 {
+  float: left;
+  margin-top: 80px;
+  margin-left: 190px;
+  font-size: 64px;
+  color: #ff9357;
+  text-shadow: 1px 1px 0 #000;
+  position: absolute;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.hero_image {
+  margin-bottom: 30px;
+}
+
+.about_cookies {
+  width: 465px;
+  float: left;
+  height: 250px;
+  background: #00b2b0;
+  margin-right: 15px;
+}
+
+.about_cookies h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 32px;
+  color: #ff9357;
+  font-family: 'Indie Flower', cursive; /*Attr: fonts.google.com*/
+  text-shadow: 1px 1px 0 #000;
+}
+
+.about_cookies p {
+  padding: 10px;
+  line-height: 130%;
+  font-size: 18px;
+  font-family: Arial, serif;
+  color: #ffd3bc;
+}
+
+.frosted {
+  height: 250px;
+  width: 465px;
+  margin-left: 15px;
+}
+
+.links {
+  margin-top: 30px;
+  width: 960px;
+  height: 300px;
+}
+
+.links div {
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  float: left;
+  position: relative;
+  background: #00b2b0;
+}
+
+.links .swag {
+  margin-left: 0px;
+}
+
+.links p {
+  position: absolute;
+  background: #000;
+  width: 300px;
+  height: 0px;
+  color: #fff;
+  bottom: 0;
+  font-size: 24px;
+  text-align: center;
+  transition: 350ms;
+}
+
+.links div:hover p {
+  height: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 175px;
+  background: #b3cccc;
+  clear: both;
+}
+
+footer section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer div {
+  float: left;
+  width: 300px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.hours {
+  margin-left: 0px;
+}
+
+footer h3 {
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+
+ul {
+  line-height: 120%;
+}

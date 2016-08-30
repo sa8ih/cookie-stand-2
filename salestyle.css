@@ -1,0 +1,111 @@
+header {
+  width: 100%;
+  background: #b3cccc;
+  font-family: 'Indie Flower', cursive; /*Attr: fonts.google.com*/
+  text-align: center;
+  height: 200px;
+}
+
+header section {
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  background: #c0c0c0;
+  position: relative;
+}
+
+header img {
+  width: 250px;
+}
+
+img.salmon {
+  float: left;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+
+header h1 {
+  float: left;
+  margin-top: 80px;
+  margin-left: 190px;
+  font-size: 64px;
+  color: #1cacff;
+  text-shadow: 1px 1px 0 #000;
+  position: absolute;
+}
+
+main {
+  width: 960px;
+  margin: 20px auto;
+}
+
+fieldset {
+  margin: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+form fieldset:first-child {
+  margin-left: 280px;
+}
+
+form fieldset:nth-child(2) {
+  margin-left: 90px;
+}
+
+form fieldset:nth-child(3) {
+  margin-left: 88px;
+}
+
+button {
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background: #40ceab;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+table {
+  margin: 10px auto;
+}
+
+td {
+  border: 1px black solid;
+  padding: 10px 10px 5px 5px;
+}
+
+tbody td {
+  text-align: right;
+}
+
+tbody td:first-child {
+  text-align: left;
+}
+
+tfoot td {
+  text-align: right;
+}
+
+tfoot td:first-child {
+  text-align: left;
+}
+
+thead td {
+  background: #999;
+}
+
+thead td:first-child {
+  background: #fff;
+}
+
+footer {
+  width: 100%;
+  height: 175px;
+  background: #00324f;
+  clear: both;
+}

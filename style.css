@@ -1,7 +1,7 @@
 /* Global styles */
 a {
   text-decoration: none;
-  color: violet;
+  color: black;
 }
 
 /* Index styles */
@@ -38,13 +38,13 @@ img.chinook {
 }
 
 header h1 {
-  float: left;
-  margin-top: 80px;
-  margin-left: 190px;
-  font-size: 64px;
-  color: #ff9357;
-  text-shadow: 1px 1px 0 #000;
-  position: absolute;
+    float: left;
+    margin-top: 80px;
+    margin-left: 190px;
+    font-size: 64px;
+    color: #172599;
+    text-shadow: 1px 1px 0 #000;
+    position: absolute;
 }
 
 main {
@@ -53,33 +53,32 @@ main {
 }
 
 .hero_image {
-  margin-bottom: 30px;
-}
-
-.about_cookies {
-  width: 465px;
-  float: left;
-  height: 250px;
-  background: #00b2b0;
-  margin-right: 15px;
-}
-
-.about_cookies h2 {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 32px;
-  color: #ff9357;
-  font-family: 'Indie Flower', cursive; /*Attr: fonts.google.com*/
-  text-shadow: 1px 1px 0 #000;
+    margin-bottom: 30px;
+    /* align-content: center; */
+    width: 960px;
 }
 
 .about_cookies p {
-  padding: 10px;
-  line-height: 130%;
-  font-size: 18px;
-  font-family: Arial, serif;
-  color: #ffd3bc;
+    padding: 10px;
+    line-height: 130%;
+    font-size: 18px;
+    font-family: Arial, serif;
+    color: #172599;
+}
+
+.about_cookies p {
+    padding: 10px;
+    line-height: 130%;
+    font-size: 18px;
+    font-family: Arial, serif;
+    color: #191a9c;
+}
+.about_cookies p {
+    padding: 10px;
+    line-height: 130%;
+    font-size: 18px;
+    font-family: Arial, serif;
+    color: #172599;
 }
 
 .frosted {
@@ -153,4 +152,8 @@ footer h3 {
 
 ul {
   line-height: 120%;
+}
+body {
+    line-height: 1;
+    background-color: #9fdaba;
 }

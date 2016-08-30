@@ -1,7 +1,7 @@
 header {
   width: 100%;
   background: #b3cccc;
-  font-family: 'Indie Flower', cursive; /*Attr: fonts.google.com*/
+  font-family: 'helvetica', cursive; /*Attr: fonts.google.com*/
   text-align: center;
   height: 200px;
 }
